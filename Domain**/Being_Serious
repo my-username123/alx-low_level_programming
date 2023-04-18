@@ -1,0 +1,11 @@
+#include<stdio.h>
+#
+#/*This is the main function it prints HelloWorld on the console. */
+int main()
+{
+
+   printf("HelloWorld");
+
+
+    return (0);
+}
