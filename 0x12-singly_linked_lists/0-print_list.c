@@ -4,7 +4,7 @@
 
 /**
   * print_list - All elements are printed of a list
-  * @h: A linked list
+  * @h: listed link
   *
   * Return: The number of nodes
   */
