@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
  * main - compute the return cents
- * @argc: number of arguements
+ * @argc: number of arguments
  * @argv: array of pointers
  * Return: coins
  */
@@ -22,7 +23,7 @@ int main(int argc, char *argv[])
 		coins++;
 		if ((cents - 25) >= 0)
 		{
-			cents -= 10;
+			cents -= 25;
 			continue;
 		}
 		if ((cents - 10) >= 0)
