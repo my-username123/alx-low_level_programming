@@ -1,13 +1,11 @@
-#ifndef DOG_H
+W#ifndef DOG_H
 #define DOG_H
 
 /**
- * struct dog - Dog's main information
+ * struct dog - The modern type that describes dog
  * @name: The dog's name
- * @age: The dog's age
+ * @age: The age of the dog
  * @owner: The owner of the dog
- *
- * Description: No description for this struct
  */
 struct dog
 {
@@ -25,30 +23,8 @@ void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);
 dog_t *new_dog(char *name, float age, char *owner);
 void free_dog(dog_t *d);
-char *_strcpy(char *dest, char *src);
-int _strlen(char *s);
 
 #endif
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
 ~
 ~
 ~
