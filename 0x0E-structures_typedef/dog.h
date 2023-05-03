@@ -1,11 +1,11 @@
-W#ifndef DOG_H
+#ifndef DOG_H
 #define DOG_H
 
 /**
- * struct dog - The modern type that describes dog
- * @name: The dog's name
- * @age: The age of the dog
- * @owner: The owner of the dog
+ * struct dog - New type that describes dog
+ * @name: dog name
+ * @age: dog age
+ * @owner: dog owner
  */
 struct dog
 {
@@ -25,33 +25,3 @@ dog_t *new_dog(char *name, float age, char *owner);
 void free_dog(dog_t *d);
 
 #endif
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
--- INSERT --                                                                                                                                                                  0,1           All
-
